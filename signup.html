@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="signup-container">
+        <h1>Create Account</h1>
+        <p>Sign up to start managing your tasks.</p>
+
+        <form id="signupForm">
+            <input type="text" id="fullName" placeholder="Full Name" required>
+
+            <input type="email" id="email" placeholder="Email Address" required>
+
+            <input type="password" id="password" placeholder="Password" required>
+
+            <div class="password-section">
+
+    <div class="password-section">
+
+    <input type="text" id="password"
+           placeholder="Choose or enter a password" required>
+
+    <button type="button" id="suggestPassword">
+        Generate Password
+    </button>
+
+    <label for="passwordSuggestions">
+        Or choose a suggested password:
+    </label>
+
+    <select id="passwordSuggestions">
+        <option value="">Select a password</option>
+        <option value="Kofi@82Blue!Tree">Kofi@82Blue!Tree</option>
+        <option value="Mango#47Sky!River">Mango#47Sky!River</option>
+        <option value="T9!Purple$Moon28">T9!Purple$Moon28</option>
+        <option value="Bright@56Star#Lion">Bright@56Star#Lion</option>
+        <option value="Cloud!93Green$Fox">Cloud!93Green$Fox</option>
+        <option value="Zebra#81Moon@Lake">Zebra#81Moon@Lake</option>
+        <option value="River$64Gold!Bird">River$64Gold!Bird</option>
+        <option value="N7@Silver!Forest29">N7@Silver!Forest29</option>
+        <option value="Ocean#52Bright!Sun">Ocean#52Bright!Sun</option>
+        <option value="Tiger!38Blue$Mountain">Tiger!38Blue$Mountain</option>
+    </select>
+
+    <p id="passwordHint">
+        Use at least 8 characters, including letters,
+        numbers and symbols.
+    </p>
+</div>
+</button>
+
+            <button type="submit">Sign Up</button>
+        </form>
+
+        <p id="message"></p>
+
+      <p>Already have an account?</p>
+<a href="index.html" class="page-link">
+    Go to To-Do List
+</a>  
+    </div>
+
+    <script src="signup.js"></script>
+</body>
+</html>
